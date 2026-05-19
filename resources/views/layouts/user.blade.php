@@ -61,8 +61,7 @@
             <header class="border-b border-slate-800/80 bg-slate-950/60 backdrop-blur-xl px-6 py-5 lg:px-10">
                 <div class="flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between">
                     <div>
-                        <p class="text-sm text-slate-400">Selamat datang kembali,</p>
-                        <h2 class="text-3xl font-semibold text-white">{{ auth()->user()->name }}</h2>
+                        <h2 class="text-3xl font-semibold text-white">Hai Warga, selamat datang kembali</h2>
                     </div>
                     <div class="inline-flex items-center gap-3 rounded-3xl border border-slate-800/80 bg-slate-900/90 px-5 py-3 text-slate-200">
                         <span class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-emerald-500 text-white">{{ strtoupper(substr(auth()->user()->name,0,1)) }}</span>

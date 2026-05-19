@@ -10,11 +10,7 @@
     <section class="grid gap-6 xl:grid-cols-[1.3fr_0.9fr]">
         <div class="rounded-[40px] glass-card border border-white/10 p-8 shadow-2xl shadow-slate-950/20">
             <div class="flex flex-col gap-3">
-                <div class="inline-flex items-center gap-3 rounded-full bg-emerald-500/10 px-4 py-2 text-emerald-200 text-sm font-semibold uppercase tracking-[0.25em]">
-                    <i class="fa-solid fa-star"></i>
-                    Pengguna Premium
-                </div>
-                <h1 class="text-4xl font-bold text-white">Hallo, {{ auth()->user()->name }}!</h1>
+                <h1 class="text-4xl font-bold text-white">Hallo, warga yang bahagia</h1>
                 <p class="max-w-3xl text-slate-300">Pantau laporan setoran Anda secara real time, buat catatan kas dengan mudah, dan ikuti perkembangan keuangan RT/RW dengan tampilan modern.</p>
             </div>
 

@@ -35,6 +35,17 @@
                         </div>
                     </div>
                 </a>
+                <a href="{{ route('kas.index') }}" class="rounded-[32px] border border-slate-800 bg-slate-950/90 px-6 py-5 text-slate-100 shadow-sm transition hover:bg-slate-800 hover:text-white">
+                    <div class="flex items-center gap-3">
+                        <div class="h-12 w-12 rounded-3xl bg-sky-500 text-slate-950 flex items-center justify-center">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold">Riwayat Transaksi</p>
+                            <p class="text-sm text-slate-400">Lihat catatan semua transaksi kas.</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
 

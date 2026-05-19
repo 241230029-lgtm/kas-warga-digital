@@ -74,8 +74,7 @@
             <header class="sticky top-0 z-20 bg-slate-950/95 backdrop-blur-sm border-b border-slate-800 px-6 py-4 lg:px-10">
                 <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
                     <div>
-                        <p class="text-sm text-slate-400">Selamat datang kembali,</p>
-                        <h2 class="text-2xl font-semibold text-white">{{ auth()->user()->name }}</h2>
+                        <h2 class="text-2xl font-semibold text-white">Hai Admin, selamat datang kembali</h2>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="hidden md:flex items-center gap-3 rounded-3xl border border-slate-800 bg-slate-900/60 px-4 py-3">
